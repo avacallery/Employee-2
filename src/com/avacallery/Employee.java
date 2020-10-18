@@ -18,7 +18,7 @@ public class Employee {
         this.baseSalary= baseSalary;
     }
 
-    public int getBaseSalary() {
+    private int getBaseSalary() {
         return baseSalary;
     }
 
@@ -28,7 +28,8 @@ public class Employee {
         this.hourlyRate = hourlyRate;
     }
 
-    public int getHourlyRate() {
+    // set to private so we can reduce # of methods exposed outside of the class
+    private int getHourlyRate() {
         return hourlyRate;
     }
 }
