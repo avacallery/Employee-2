@@ -11,6 +11,12 @@ public class Main {
         System.out.println(wage);
     }
 
+    // we don't want our methods to have too many parameters
+    // if you're constantly calling methods and passing so many arguments, that is procedural programming
+    // avoid fat methods and fat classes
+    // programs written this way are harder to maintain because it is harder to find where to change
+    // lack of reusability
+
     public static int calculateWage(
             int baseSalary,
             int extraHours,
